@@ -9,8 +9,12 @@ h1  {
 	font-family: $font-secondary;
 	font-weight: 900;
 	font-style: italic;
-	font-size: 8rem;
+	font-size: 8.125rem;
 	line-height: 1.2;
+	@media all and (max-width: $bp-med) {
+			font-size: 5rem;
+			line-height: 1;
+	}
 }
 
 /**
@@ -41,6 +45,7 @@ h4  {
 	font-size: 1.25rem;
 	line-height: 1.2;
 	font-kerning: 4;
+	text-transform: capitalize;
 }
 
 /**
@@ -51,6 +56,10 @@ h5 {
 	font-size: 3.25rem;
 	line-height: 1.4375;
 	font-kerning: -1.44;
+	@media all and (max-width: $bp-med) {
+			font-size: 2rem;
+			line-height: 1.4;
+	}
 }
 
 /**

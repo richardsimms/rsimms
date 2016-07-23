@@ -12,46 +12,43 @@
 /*------------------------------------*\
 	#HERO BLOCK
 \*------------------------------------*/
-.c-block-hero {
+header {
+  background-size: cover;
+  padding: 2rem 0;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  transition: all $anim-speed-quick $anim-ease;
+
+  div{
+    box-sizing: border-box;
     display: block;
-    position: relative;
+
+    h1 {
+      margin: 5rem;
+      }
+    h5 {
+      margin: 6rem;
+    }
+  }
 }
 
 /**
  * Hero Image
  * 1) This is the primary hero image that runs full-bleed across the layout
  */
-.c-block-hero__img {
-    display: block;
-    width: 100%;
-    max-height: 50vh;
-    object-fit: cover;
-}
-
+.block-hero__img {
+   background: #2E1811;
+   background-image: url('http://labs.jensimmons.com/examples/images/dirt.jpg');
+   background-size: cover;
+   color: #fff;
+   text-shadow: 0px 1px 6px rgba(0,0,0,0.6);
+ }
 /**
  * Hero Headline
  * 1) This sits overtop of the hero image when space permits
  */
-.c-block-hero__headline {
-    background: $color-dim-50;
-    color: $color-white;
-    padding: 1rem;
-    font-size: 2.6rem;
-    transition: all $anim-speed-quick $anim-ease;
-
-    @media all and (min-width: $bp-large) {
-        position: absolute;
-        top: 3rem;
-        left: 1rem;
-        width: 50%;
-        border-radius: $border-radius;
-    }
-
-    .c-block-hero:hover &, .c-block-hero:focus & {
-        background: $color-gray-73;
-    }
- }
-
 
 
 
@@ -66,14 +63,23 @@
  * 2) For more info, read http://www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/
  */
 .c-block-media {
-	display: flex;
-	transition: all $anim-speed-quick $anim-ease;
+  background-size: cover;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex: 1;
+  // display: block;
+  text-align: center;
+  align-items: center;
+  transition: all $anim-speed-quick $anim-ease;
 
-	&:hover, &:focus {
-		.c-block-media__headline {
-			color: $color-brand-donkey-brown;
-		}
-	}
+  h2 {
+    text-transform: capitalize;
+    padding: 4rem 4rem 0 4rem;
+  }
+  h5{
+    padding: 0 4rem 4rem 4rem;
+  }
 
 	&--small {
 		font-size: $font-size-small-2;
@@ -84,52 +90,52 @@
  * Media Container
  * 1) This is the container that holds the block image (or media)
  */
-.c-block-media__media {
-	width: 20%;
-	max-width: 11em;
-	margin-right: 1rem;
+// .c-block-media__media {
+// 	width: 20%;
+// 	max-width: 11em;
+// 	margin-right: 1rem;
+//
+// 	.c-block-media--small & {
+// 		max-width: 3.5em;
+// 		margin-right: 0.5rem;
+// 	}
+//
+// 	@media all and (min-width: $bp-med) {
+// 		width: 50%;
+// 		margin-right: 1.5rem;
+// 	}
+// }
 
-	.c-block-media--small & {
-		max-width: 3.5em;
-		margin-right: 0.5rem;
-	}
+// .c-block-media__img {
+// 	border-radius: $border-radius;
+// }
 
-	@media all and (min-width: $bp-med) {
-		width: 50%;
-		margin-right: 1.5rem;
-	}
-}
+// .c-block-media__headline {
+// 	margin-bottom: 0.2em;
+// 	color: $color-gray-65;
+// 	transition: all $anim-speed-quick $anim-ease;
+//
+// 	.c-block-media--small & {
+// 		font-size: $font-size-med;
+// 	}
+// }
 
-.c-block-media__img {
-	border-radius: $border-radius;
-}
+// .c-block-media__body {
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	flex: 1;
+// }
 
-.c-block-media__headline {
-	margin-bottom: 0.2em;
-	color: $color-gray-65;
-	transition: all $anim-speed-quick $anim-ease;
-
-	.c-block-media--small & {
-		font-size: $font-size-med;
-	}
-}
-
-.c-block-media__body {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	flex: 1;
-}
-
-.c-block-media__excerpt {
-	color: $color-gray-35;
-	transition: all $anim-speed-quick $anim-ease;
-
-	.c-block-media--small & {
-		margin-bottom: 0;
-		line-height: 1.2;
-	}
-}
+// .c-block-media__excerpt {
+// 	color: $color-gray-35;
+// 	transition: all $anim-speed-quick $anim-ease;
+//
+// 	.c-block-media--small & {
+// 		margin-bottom: 0;
+// 		line-height: 1.2;
+// 	}
+// }
 
 
 /*------------------------------------*\
@@ -189,7 +195,8 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: $color-dim-50;
+    background: $color-white;
+    box-shadow: 0px 4px 7px 0px rgba(48,48,48,0.10);
     color: $color-white;
     border-radius: $border-radius;
     padding: 1em 1em;

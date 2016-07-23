@@ -13,11 +13,21 @@ p {
  * Blockquote base styles
  */
 blockquote {
+		font-family: $font-secondary;
     font-style:italic;
-    border-left: 1px solid $color-brand-donkey-brown;
-    color: $color-gray-50;
+		font-size: 1.375rem;
+		text-align: center;
+    // border-left: 1px solid $color-brand-donkey-brown;
+    color: $color-text;
 	padding-left: $pad;
 	margin-bottom: $space;
+	.c-quote__cite{
+		font-family: $font;
+		font-size: 2rem;
+		font-style: normal;
+		font-weight: 300;
+
+	}
 }
 
 /**
