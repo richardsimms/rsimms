@@ -458,21 +458,23 @@ abbr {
 /*------------------------------------*\
 	#HERO BLOCK
 \*------------------------------------*/
-header {
-  background-size: cover;
-  padding: 2rem 0;
+.hero {
   display: flex;
   height: 100vh;
   text-align: center;
   align-items: center;
   transition: all 0.2s ease-ease; }
-  header div {
+  .hero div {
     box-sizing: border-box;
     display: block; }
-    header div h1 {
+    .hero div h1 {
       margin: 5rem; }
-    header div h5 {
+    .hero div h5 {
       margin: 6rem; }
+
+header {
+  background-size: cover;
+  padding: 2rem 0; }
 
 /**
  * Hero Image
@@ -750,12 +752,12 @@ header {
  * Footer Nav Links
  */
 .c-footer-nav__link {
-  font-weight: bold;
-  display: block;
+  display: inline;
+  font-size: 1.375rem;
   padding: 1rem 2rem 1rem 0;
-  color: #fff; }
+  color: #303030; }
   .c-footer-nav__link:hover, .c-footer-nav__link:focus {
-    color: #a5a5a5; }
+    color: #3468c2; }
 
 /*------------------------------------*\
     #FORMS
@@ -859,7 +861,7 @@ header {
 \*------------------------------------*/
 .c-logo {
   display: block;
-  max-width: 200px; }
+  max-width: 2.18rem; }
   .c-box__header .c-logo {
     max-width: 12em;
     margin: 0 auto; }
@@ -1270,7 +1272,12 @@ header {
  * Nav List
  */
 .c-primary-nav__list {
-  display: none; }
+  display: inline;
+  font-size: 1.375rem;
+  padding: 1rem 2rem 1rem 0;
+  color: #303030; }
+  .c-primary-nav__list:hover, .c-primary-nav__list:focus {
+    color: #3468c2; }
   @media all and (min-width: 46.8em) {
     .c-primary-nav__list {
       display: flex; } }

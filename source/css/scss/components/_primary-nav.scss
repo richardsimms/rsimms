@@ -29,14 +29,22 @@
  * Nav List
  */
 .c-primary-nav__list {
-	display: none;
-	
+	display: inline;
+	font-size: 1.375rem;
+	padding: 1rem 2rem 1rem 0;
+	color: $color-text;
+
+	&:hover, &:focus {
+		color: $color-cta;
+	}
+
 	@media all and (min-width: $bp-med) {
 		display: flex;
 	}
-	
+
 	.c-primary-nav--is-active & {
 		display: block;
+		// color: $color-cta;
 	}
 }
 

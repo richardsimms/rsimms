@@ -16,10 +16,10 @@
 .c-footer-nav__list {
 	display: flex;
 	flex-direction: column;
-	
+
 	@media all and (min-width: $bp-small) {
 		flex-direction: row;
-	}	
+	}
 }
 
 /**
@@ -27,7 +27,7 @@
  */
 .c-footer-nav__item {
 	width: 50%;
-	
+
 	@media all and (min-width: $bp-small) {
 		width: inherit;
 	}
@@ -37,12 +37,12 @@
  * Footer Nav Links
  */
 .c-footer-nav__link {
-	font-weight: bold;
-	display: block;
+	display: inline;
+	font-size: 1.375rem;
 	padding: 1rem 2rem 1rem 0;
-	color: $color-white;
-	
+	color: $color-text;
+
 	&:hover, &:focus {
-		color: $color-gray-35;
+		color: $color-cta;
 	}
 }

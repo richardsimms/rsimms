@@ -12,9 +12,7 @@
 /*------------------------------------*\
 	#HERO BLOCK
 \*------------------------------------*/
-header {
-  background-size: cover;
-  padding: 2rem 0;
+.hero {
   display: flex;
   height: 100vh;
   text-align: center;
@@ -32,6 +30,12 @@ header {
       margin: 6rem;
     }
   }
+}
+header {
+  background-size: cover;
+  padding: 2rem 0;
+
+
 }
 
 /**
