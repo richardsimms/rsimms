@@ -1,13 +1,4 @@
-<a href="{{ project.url }}" class="c-block-tile c-block-tile--{{ styleModifier }}">
-	{{> atoms-hero:c-block-hero__img }}
-	<img src="{{img.avatar.src}}" alt="Avatar" class="{{ styleModifier }}" />
-
-	{{# progress }}
-		{{> atoms-progress }}
-	{{/ progress }}
-	<span class="c-block-tile__value">{{ number }}</span>
-	<h2 class="c-block-tile__label">{{ headline.short }}</h2>
-</a><!-- end c-block-tile -->
-{{# overlay }}
-	{{> molecules-overlay }}
-{{/ overlay}}
+<div class="c-block-media">
+	<h2>{{ about.name }}</h2>
+	<p>{{ about.intro }}</p>
+</div><!-- end c-block-media__body -->

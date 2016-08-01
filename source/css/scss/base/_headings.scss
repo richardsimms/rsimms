@@ -11,8 +11,14 @@ h1  {
 	font-style: italic;
 	font-size: 8.125rem;
 	line-height: 1.2;
-	@media all and (max-width: $bp-med) {
+
+	@media all and (max-width: $bp-small-3) {
 			font-size: 5rem;
+			line-height: 1;
+	}
+
+	@media all and (max-width: $bp-small) {
+			font-size: 3rem;
 			line-height: 1;
 	}
 }
@@ -25,6 +31,13 @@ h2 {
 	font-size: 3.75rem;
 	line-height: 1.4375;
 	color: $color-brand-donkey-brown;
+
+	@media all and (max-width: $bp-med) {
+			font-size: 2rem;
+			line-height: 1.4;
+			padding: 1rem;
+	}
+
 }
 
 /**
@@ -56,9 +69,14 @@ h5 {
 	font-size: 3.25rem;
 	line-height: 1.4375;
 	font-kerning: -1.44;
+
 	@media all and (max-width: $bp-med) {
 			font-size: 2rem;
 			line-height: 1.4;
+	}
+	@media all and (max-width: $bp-small) {
+			font-size: 1.4rem;
+			line-height: 1.2;
 	}
 }
 

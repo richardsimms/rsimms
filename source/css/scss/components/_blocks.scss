@@ -25,9 +25,18 @@
 
     h1 {
       margin: 5rem;
+      transition: all $anim-speed-quick $anim-ease;
+
+      @media all and (max-width: $bp-med) {
+        margin: 1rem;
+      }
       }
     h5 {
       margin: 6rem;
+
+      @media all and (max-width: $bp-med) {
+        margin: 1rem;
+      }
     }
   }
 }
@@ -68,14 +77,16 @@ header {
  */
 .c-block-media {
   background-size: cover;
-  display: flex;
+  // display: flex;
 	flex-direction: column;
 	justify-content: center;
 	flex: 1;
-  // display: block;
+  margin: $space;
   text-align: center;
-  align-items: center;
+
   transition: all $anim-speed-quick $anim-ease;
+
+
 
   h2 {
     text-transform: capitalize;
@@ -83,13 +94,39 @@ header {
   }
   h5{
     padding: 0 4rem 4rem 4rem;
+
+    @media all and (max-width: $bp-med) {
+      padding: 1rem;
+    }
   }
 
 	&--small {
 		font-size: $font-size-small-2;
 	}
+
+  p {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 300;
+    padding: 2rem 10rem 2rem 10rem;
+
+    @media all and (min-width: $bp-med) {
+      padding: 1rem;
+    }
+
+  }
 }
 
+.about {
+  h2 {
+    color: $color-text;
+    font-weight: 100;
+  }
+  p {
+    text-align: left;
+  }
+
+}
 /**
  * Media Container
  * 1) This is the container that holds the block image (or media)
