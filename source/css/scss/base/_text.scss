@@ -29,9 +29,13 @@ blockquote {
 		font-weight: 300;
 		margin: $space;
 	}
+
+	mark {
+		 font-size: 5.2rem;
+	}
 }
 mark {
-	font-size: 5.2rem;
+	// font-size: 5.2rem;
 	font-family: $font-secondary;
 	font-style:italic;
 	font-weight: 600;

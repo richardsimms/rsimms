@@ -443,9 +443,10 @@ blockquote {
     font-style: normal;
     font-weight: 300;
     margin: 1em; }
+  blockquote mark {
+    font-size: 5.2rem; }
 
 mark {
-  font-size: 5.2rem;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-style: italic;
   font-weight: 600;
@@ -566,6 +567,35 @@ header {
  * Media Container
  * 1) This is the container that holds the block image (or media)
  */
+/*------------------------------------*\
+	# Case study
+\*------------------------------------*/
+.casestudy {
+  padding-left: 2rem;
+  text-align: left; }
+  .casestudy h4 {
+    padding-bottom: 1.75rem; }
+  .casestudy p {
+    text-align: left;
+    padding: 0;
+    font-size: 1rem; }
+
+.casestudy_img > img {
+  margin-right: -1rem; }
+
+.cs-1 {
+  overflow: auto;
+  padding: 6.25rem 1rem 3.75rem 1rem;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  background-color: #dee2ea; }
+
+.cs-2 {
+  background-color: #e4e3de; }
+
+.cs-3 {
+  background-color: #d8e6e4; }
+
 /*------------------------------------*\
 	#TOUT BLOCK
 \*------------------------------------*/
