@@ -19,20 +19,23 @@ blockquote {
 		text-align: center;
     // border-left: 1px solid $color-brand-donkey-brown;
     color: $color-text;
-	padding-left: $pad;
-	margin: $space;
+		margin: $pad;
+		padding: 0 $space;
 
 	.c-quote__cite{
 		font-family: $font;
 		font-size: 1rem;
 		font-style: normal;
 		font-weight: 300;
-		margin: $space;
+		margin: $pad;
 	}
 
 	mark {
 		 font-size: 5.2rem;
 	}
+}
+mark + div {
+	padding: 0 $space-double;
 }
 mark {
 	// font-size: 5.2rem;

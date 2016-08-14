@@ -21,7 +21,7 @@
 
 	@media all and (min-width: $bp-med) {
 		display: block;
-		margin-right: 1rem;
+		margin-right: $pad;
 	}
 }
 
@@ -31,7 +31,7 @@
 .c-primary-nav__list {
 	display: block;
 	font-size: 1.375rem;
-	padding: 1rem 2rem 1rem 0;
+	padding: $pad;
 	color: $color-text;
 
 	&:hover, &:focus {
@@ -54,7 +54,7 @@
 .c-primary-nav__link {
 	display: inline;
 	font-size: 1.375rem;
-	padding: 1rem 2rem 1rem 0;
+	padding: $pad;
 	color: $color-text;
 
 	&:hover, &:focus {

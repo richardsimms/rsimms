@@ -310,7 +310,7 @@ ol, ul {
  */
 dl {
   overflow: hidden;
-  margin: 0 0 1em; }
+  margin: 0 0 1.5em; }
 
 /**
  * Terms/Names base styles
@@ -347,18 +347,18 @@ img, video, object {
  * Iframe base styles
  */
 iframe {
-  margin-bottom: 1em; }
+  margin-bottom: 1.5em; }
 
 /**
  * Figure base styles
  */
 figure {
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   /**
    * Figure image base styles
    */ }
   figure img {
-    margin-bottom: 0.5em; }
+    margin-bottom: 0.75em; }
 
 /**
  * Figure caption base styles
@@ -424,7 +424,7 @@ td {
  * Paragraph base styles
  */
 p {
-  margin-bottom: 1em; }
+  margin-bottom: 1.5em; }
 
 /**
  * Blockquote base styles
@@ -435,16 +435,19 @@ blockquote {
   font-size: 2rem;
   text-align: center;
   color: #303030;
-  padding-left: 1em;
-  margin: 1em; }
+  margin: 1rem;
+  padding: 0 1.5em; }
   blockquote .c-quote__cite {
     font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 300;
-    margin: 1em; }
+    margin: 1rem; }
   blockquote mark {
     font-size: 5.2rem; }
+
+mark + div {
+  padding: 0 3.75em; }
 
 mark {
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
@@ -461,7 +464,7 @@ hr {
   border: 0;
   height: 2px;
   background: #d9d9d9;
-  margin: 2em 0; }
+  margin: 3.75em 0; }
 
 /**
  * Abbreviation base styles
@@ -492,13 +495,10 @@ abbr {
     box-sizing: border-box;
     display: block; }
     .hero div h1 {
-      margin: 5rem;
+      margin: 1rem;
       transition: all 0.2s ease-ease; }
-      @media all and (max-width: 46.8em) {
-        .hero div h1 {
-          margin: 1rem; } }
     .hero div h5 {
-      margin: 6rem; }
+      margin: 1.5em; }
       @media all and (max-width: 46.8em) {
         .hero div h5 {
           margin: 1rem; } }
@@ -535,33 +535,41 @@ header {
   flex-direction: column;
   justify-content: center;
   flex: 1;
-  margin: 1em;
+  margin: 1.5em;
+  padding: 1.5em;
   text-align: center;
   transition: all 0.2s ease-ease; }
+  @media all and (max-width: 46.8em) {
+    .c-block-media {
+      margin: 0; } }
   .c-block-media h2 {
     text-transform: capitalize;
-    padding: 4rem 4rem 0 4rem; }
-  .c-block-media h5 {
-    padding: 0 4rem 4rem 4rem; }
-    @media all and (max-width: 46.8em) {
-      .c-block-media h5 {
+    padding: 1rem 0 0 0; }
+    @media all and (max-width: 50em) {
+      .c-block-media h2 {
         padding: 1rem; } }
+  @media all and (max-width: 46.8em) {
+    .c-block-media h5 {
+      padding: 0; } }
   .c-block-media--small {
     font-size: 0.875rem; }
   .c-block-media p {
     font-size: 1.5rem;
     text-align: center;
     font-weight: 300;
-    padding: 2rem 10rem 2rem 10rem; }
-    @media all and (min-width: 46.8em) {
+    padding: 1.5em 3.75em 1.5em 3.75em; }
+    @media all and (max-width: 66em) {
       .c-block-media p {
-        padding: 1rem; } }
+        padding: 0.75em;
+        font-size: 1rem; } }
 
-.about h2 {
-  color: #303030;
-  font-weight: 100; }
-.about p {
-  text-align: left; }
+.about {
+  padding: 3.75em 0 0 0; }
+  .about h2 {
+    color: #303030;
+    font-weight: 100; }
+  .about p {
+    text-align: left; }
 
 /**
  * Media Container
@@ -571,24 +579,27 @@ header {
 	# Case study
 \*------------------------------------*/
 .casestudy {
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   text-align: left; }
   .casestudy h4 {
-    padding-bottom: 1.75rem; }
+    padding-bottom: 1.875em; }
   .casestudy p {
     text-align: left;
     padding: 0;
     font-size: 1rem; }
 
 .casestudy_img > img {
-  margin-right: -1rem; }
+  margin-right: -1.5em; }
 
 .cs-1 {
   overflow: auto;
-  padding: 6.25rem 1rem 3.75rem 1rem;
-  margin-left: -1rem;
-  margin-right: -1rem;
+  padding: 9em 1.5em 9em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
   background-color: #dee2ea; }
+  @media all and (max-width: 46.8em) {
+    .cs-1 {
+      padding: 6em 1.5em 6em 1.5em; } }
 
 .cs-2 {
   background-color: #e4e3de; }
@@ -604,7 +615,7 @@ header {
  */
 .c-block-tout {
   display: inline-block;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.75em;
   position: relative;
   overflow: hidden;
   border-radius: 40px; }
@@ -625,7 +636,7 @@ header {
   width: 100%;
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
-  padding: 0.5em;
+  padding: 0.5rem;
   font-size: 1.4rem;
   transition: all 0.2s ease-ease; }
   .c-block-tout:hover .c-block-tout__headline, .c-block-tout:focus .c-block-tout__headline {
@@ -722,13 +733,13 @@ header {
  * Small button
  */
 .c-btn-small {
-  padding: 0.5em; }
+  padding: 0.5rem; }
 
 /**
  * Large button
  */
 .c-btn-large {
-  padding: 0.5em;
+  padding: 0.5rem;
   text-transform: uppercase;
   background: #9e9e9e;
   font-size: 1.4rem;
@@ -783,7 +794,7 @@ header {
   background: #fff;
   color: #303030;
   line-height: 1.2;
-  padding: 1em 0;
+  padding: 1em 3.75em;
   margin-left: auto;
   display: flex;
   align-items: center; }
@@ -791,14 +802,17 @@ header {
     .c-footer {
       margin-left: 1rem;
       display: block; } }
+  @media all and (max-width: 46.8em) {
+    .c-footer {
+      padding: 1rem 0; } }
 
 /**
  * copyright
  */
 .copyright {
   text-align: right;
-  margin-left: auto;
-  margin-right: 1rem; }
+  margin: 0 1rem 0 auto;
+  padding-top: 1rem; }
   @media all and (max-width: 66em) {
     .copyright {
       text-align: left;
@@ -965,6 +979,9 @@ header {
 .c-logo-link {
   display: inline-block;
   padding: 0.2rem 1rem; }
+  @media all and (min-width: 46.8em) {
+    .c-logo-link {
+      padding: 0 3.75em; } }
 
 /*------------------------------------*\
     #ICONS
@@ -1152,17 +1169,17 @@ header {
  */
 .icon-play-box {
   display: block;
-  margin-left: 2em; }
+  margin-left: 2rem; }
 
 /**
  * Play box icon before
  */
 .icon-play-box:before {
-  padding: 0.25em;
+  padding: 0.25rem;
   background: #9e9e9e;
   color: #fff;
   margin-left: -1.7rem;
-  margin-right: 0.5em; }
+  margin-right: 0.5rem; }
 
 /*------------------------------------*\
     #LISTS
@@ -1177,7 +1194,7 @@ header {
  * Social list
  */
 .social-list li {
-  margin: 0 0.4rem 1em 0; }
+  margin: 0 0.4rem 1.5em 0; }
 .social-list a {
   font-size: 1.6em; }
 
@@ -1185,20 +1202,20 @@ header {
  * Headline list
  */
 .headline-list {
-  margin-bottom: 1em; }
+  margin-bottom: 1.5em; }
   .headline-list.flush {
     margin: 0; }
   .headline-list h4 {
     font-weight: normal; }
   .headline-list li {
-    padding: 0.25em 0;
+    padding: 0.25rem 0;
     border-top: 1px solid #a5a5a5; }
 
 /**
  * Post list
  */
 .post-list li {
-  margin-bottom: 1em; }
+  margin-bottom: 1.5em; }
 
 /**
  * Bullet list
@@ -1208,7 +1225,7 @@ header {
   margin: 0 0 1em 1.2em;
   line-height: 1.3; }
   .bullet-list li {
-    margin-bottom: 1em; }
+    margin-bottom: 1.5em; }
 
 /**
  * Text list
@@ -1217,7 +1234,7 @@ header {
   margin: 0 0 1em;
   line-height: 1.3; }
   .text-list li {
-    margin-bottom: 1em; }
+    margin-bottom: 1.5em; }
 
 /**
  * Media List
@@ -1368,7 +1385,7 @@ header {
 .c-primary-nav__list {
   display: block;
   font-size: 1.375rem;
-  padding: 1rem 2rem 1rem 0;
+  padding: 1rem;
   color: #303030; }
   .c-primary-nav__list:hover, .c-primary-nav__list:focus {
     color: #3468c2; }
@@ -1384,7 +1401,7 @@ header {
 .c-primary-nav__link {
   display: inline;
   font-size: 1.375rem;
-  padding: 1rem 2rem 1rem 0;
+  padding: 1rem;
   color: #303030; }
   .c-primary-nav__link:hover, .c-primary-nav__link:focus {
     color: #3468c2; }
@@ -1400,7 +1417,7 @@ header {
     .pagination li:last-child {
       border: 0; }
   .pagination a {
-    padding: 1em; }
+    padding: 1rem; }
 
 /*------------------------------------*\
     #PAGE HEADER
@@ -1430,7 +1447,7 @@ header {
  */
 .c-section {
   position: relative;
-  margin: 0 0 2em; }
+  margin: 0 0 3.75em; }
   @media all and (min-width: 39.8em) {
     .l-sidebar .c-section {
       margin-right: 2em;
@@ -1501,12 +1518,12 @@ header {
   text-decoration: underline; }
 .text ul {
   list-style: disc;
-  margin: 0 0 1em 1.2em; }
+  margin: 0 0 1.5em 1.2em; }
   .text ul ul {
     margin-bottom: 0; }
 .text ol {
   list-style: decimal;
-  margin: 0 0 1em 1.5em; }
+  margin: 0 0 1.5em 1.5em; }
   .text ol ol {
     margin-bottom: 0; }
 
@@ -1603,7 +1620,7 @@ progress[value]::-webkit-progress-bar {
  * Layout container
  */
 .l {
-  max-width: 80em;
+  max-width: 90em;
   margin: 0 auto;
   padding: 1rem; }
 
@@ -1622,7 +1639,7 @@ progress[value]::-webkit-progress-bar {
   @media all and (min-width: 50em) {
     .l--two-col .l-main {
       width: 70%;
-      padding-right: 1em; } }
+      padding-right: 1rem; } }
   @media all and (min-width: 39.8em) {
     .l--two-col .l-sidebar {
       display: flex; } }
@@ -1630,7 +1647,7 @@ progress[value]::-webkit-progress-bar {
     .l--two-col .l-sidebar {
       flex-direction: column;
       width: 30%;
-      padding: 0 0 0 1em; } }
+      padding: 0 0 0 1rem; } }
   @media all and (min-width: 50em) {
     .l--two-col {
       flex-direction: row; } }
@@ -1643,13 +1660,13 @@ progress[value]::-webkit-progress-bar {
  */
 .g {
   overflow: hidden;
-  margin: 0 -0.5em; }
+  margin: 0 -0.5rem; }
 
 /**
  * Grid item
  */
 .gi {
-  padding: 0.5em; }
+  padding: 0.5rem; }
   .gi img {
     display: block; }
   @media all and (min-width: 46.8em) {

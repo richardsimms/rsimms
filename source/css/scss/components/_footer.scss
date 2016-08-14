@@ -11,7 +11,7 @@
 	background: $color-white;
 	color: $color-text;
 	line-height: 1.2;
-	padding: 1em 0;
+	padding: 1em $space-double;
 	margin-left: auto;
 	display: flex;
 	align-items: center;
@@ -22,15 +22,19 @@
 		display: block;
 
 	}
+	@media all and (max-width: $bp-med) {
+		padding: 1rem 0;
+	}
 }
 
 /**
  * copyright
  */
 .copyright {
+
 	text-align: right;
-	margin-left: auto;
-	margin-right: 1rem;
+	margin: 0 $pad 0 auto;
+	padding-top: 1rem;
 
 		@media all and (max-width: $bp-large-2) {
 			text-align: left;

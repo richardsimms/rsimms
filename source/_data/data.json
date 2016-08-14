@@ -2,14 +2,15 @@
   "company" : {
       "name" : "Richard Simms",
       "url" : "http://rsimms.com",
-      "label": "Home"
+      "label": "Home",
+      "description" : "Something is achieved, not when there is nothing more to add, but when there is nothing left to take away."
   },
   "title" : "Richard Simms",
   "pageTitle": "Page title",
   "htmlClass": "pl",
   "bodyClass": "body",
   "btnText" : "This is a link",
-  "copywrite": "© 2005–2016  Richard Simms. Made resposable in London.",
+  "copywrite": "© 2005–2016  Richard Simms made by hand in London.",
   "progress" : true,
   "max" : "100",
   "progressValue" : "90",

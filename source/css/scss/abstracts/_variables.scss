@@ -122,22 +122,22 @@ $font-size-large : 1.4375rem;
 /*------------------------------------*\
     #LAYOUT
 \*------------------------------------*/
-$l-max-width: 80em;
+$l-max-width: 90em;
 
 /**
  * Spacing Defaults
  */
-$space : 1em;
-$space-and-half : $space*1.5;
-$space-double : $space*2;
-$space-quad : $space*4;
+$space : 1.5em;
+$space-and-half : $space*1.25;
+$space-double : $space*2.5;
+$space-treble : $space*4;
+$space-quad : $space*6;
 $space-half : $space/2;
-$pad : 1em;
+$pad : 1rem;
 $pad-and-half : $pad*1.5;
 $pad-double : $pad*2;
 $pad-half : $pad/2;
 $pad-quarter :$pad/4;
-
 
 
 
