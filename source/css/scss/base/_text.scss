@@ -33,9 +33,19 @@ blockquote {
 	mark {
 		 font-size: 5.2rem;
 	}
+	@media all and (max-width: $bp-med) {
+			font-size: 1.4rem;
+			line-height: 1.2;
+			padding: 0;
+			margin: 0;
+	}
 }
 mark + div {
 	padding: 0 $space-double;
+
+	@media all and (max-width: $bp-med) {
+		padding: 0;
+	}
 }
 mark {
 	// font-size: 5.2rem;

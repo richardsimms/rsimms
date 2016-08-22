@@ -1,29 +1,20 @@
 {{> organisms-header }}
 <main role="main">
-
-	{{# hero }}
-		{{> molecules-block-hero }}
-	{{/ hero}}
-
-	<div class="l">
-		{{> organisms-tout-list }}
-	</div>
-
-	<div class="l l--two-col">
-		<div class="l-main">
-			{{# latestPosts }}
-			{{> organisms-section-media-list }}
-			{{/ latestPosts }}
-			{{> organisms-casestudy }}
-
-		</div><!--end .l-main-->
-
-		<div class="l-sidebar">
-			{{# featuredPeople }}
-			{{> organisms-section-media-list }}
-			{{/ featuredPeople }}
-		</div><!--end .l-sidebar-->
-
-	</div><!--end l--two-col-->
+  <div class="l">
+    {{> molecules-block-hero }}
+    {{> molecules-block-tile }}
+    {{# study1 }}
+    {{> organisms-casestudy }}
+    {{/ study1 }}
+    {{# study2 }}
+    {{> organisms-casestudy }}
+    {{/ study2 }}
+    {{# study3 }}
+    {{> organisms-casestudy }}
+    {{/ study3 }}
+		{{> molecules-block-tile }}
+		{{> molecules-block-cta }}
+		{{> molecules-block-blockquote }}
+  </div>
 </main>
 {{> organisms-footer }}

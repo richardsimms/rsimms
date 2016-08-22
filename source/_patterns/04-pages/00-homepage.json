@@ -10,165 +10,42 @@
     "intro" : "21 fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
   },
 	"project": {
-    "order": "cs-1",
-    "url": "xxx.com",
-    "link": "See Project in action",
-    "label": "Meet quick",
     "name": "123 Stories",
-    "intro": "345 last time somebody pointed out that cowboys ride horses, not tricycles, I shot him.",
-    "src": "http://placeimg.com/400/300/tech",
-    "alt": "4x3 Image"
+		"task": "123 Progressive Enhancement",
+    "intro": "345 last time somebody pointed out that cowboys ride horses, not tricycles, I shot him."
   },
-
+	"btnText": "123 This is a link",
+	"quoteTitle" : "123 Something will be said",
+  "quoteText" : "&#8220; 123 A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text, and typically distinguished visually using indentation and a different typeface or smaller size quotation.&#8221;",
+  "quoteSource" : "<a href='https://en.wikipedia.org/wiki/Block_quotation'>123 Wikiepedia</a>",
 	"study1" : {
 			"order": "cs-1",
 			"url": "xxx.com",
 			"link": "See  in action",
-			"label": "Meet ",
+			"label": "123 Meet ",
 			"name": "one",
 			"intro": "xxxx tricycles, I shot him.",
 			"src": "http://placeimg.com/400/300/tech",
 			"alt": "4x3 Image"
 		},
-
-		"headline": {
-	    "short": "23 is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
-	    "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
-	  },
-	"toutList" : [
-      {
-		"url": "link.pages-blog-detail",
-		"headline": {
-			"short" : "Best winter hikes around the world"
-		},
-		"imgLandscape" : {
-	  	  "src": "../../images/sample/tout-winter-hiker.jpg",
-	        "alt": "Hiker with back pack walking in snow"
-	    }
-	  },
-      {
-		"url": "link.pages-login",
-		"headline": {
-			"short" : "Sign in to view your dashboard"
-		},
-		"imgLandscape" : {
-	  	  "src": "../../images/sample/tout-leaves.jpg",
-	        "alt": "Green Leaves"
-	    }
-	  },
-      {
-		"url" : "link.pages-about",
-		"headline": {
-			"short" : "Learn about our mission"
-		},
-		"imgLandscape" : {
-	  	  "src": "../../images/sample/tout-mountains.jpg",
-	        "alt": "Mountain"
-	    }
-	  }
-    ],
-	"inset-blocks" : [
-		{
-			"headline" : "This is the headline for the inset block"
-		}
-	],
-	"latestPosts" : {
-		"sectionTitle": "Latest From the Blog",
-		"mediaList": [
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "../../../images/sample/blog-mtns3.jpg",
-					"alt": "red mountains"
-				},
-				"headline" : {
-					"short" : "Hardest Hikes in the World"
-				},
-				"excerpt" : {
-					"medium" : "The world delivers a multitude of daunting hikes. How difficult? We have listed some of the most strenuous hikes in the world."
-				}
-
+		"study2" : {
+				"order": "cs-2",
+				"url": "xxx.com",
+				"link": "2 See  in action",
+				"label": "2 Meet ",
+				"name": "2 one",
+				"intro": "xxxx tricycles, I shot him.",
+				"src": "http://placeimg.com/400/300/tech",
+				"alt": "4x3 Image"
 			},
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "../../../images/sample/blog-trees.jpg",
-					"alt": "road with trees"
-				},
-				"headline" : {
-					"short" : "How to Survive in the Woods"
-				},
-				"excerpt" : {
-					"medium" : "Picture yourself alone in the wilderness with only a backpack full of your belongings for 2 weeks. Here are some tips and suggestions on how to survive the hazards that Mother Nature has to offer."
+			"study3" : {
+					"order": "cs-3",
+					"url": "xxx.com",
+					"link": "3 See  in action",
+					"label": "3 Meet ",
+					"name": "3 one",
+					"intro": "xxxx tricycles, I shot him.",
+					"src": "http://placeimg.com/400/300/tech",
+					"alt": "4x3 Image"
 				}
-
-			},
-			{
-				"url" : "link.pages-blog-detail",
-				"imgSquare" : {
-					"src": "../../../images/sample/blog-mtns2.jpg",
-					"alt": "mountain and lake"
-				},
-				"headline" : {
-					"short" : "Top 10 Best Locations to Hike in the U.S."
-				},
-				"excerpt" : {
-					"medium" : "You do not have to travel far to explore what nature has to offer. The U.S. contains some of the best sights in the world and we have listed the 10 best for you."
-				}
-
-			}
-		],
-		"btnText" : "View All Posts"
-	},
-	"featuredPeople" : {
-		"sectionTitle" : "Featured Hikers",
-		"mediaList": [
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar1.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Jimmy Stewart"
-				},
-				"excerpt" : {
-					"medium" : "Indiana, PA"
-				}
-
-			},
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar2.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Janice Kimble"
-				},
-				"excerpt" : {
-					"medium" : "Los Angeles, CA"
-				}
-
-			},
-			{
-				"url" : "",
-				"styleModifier" : "small",
-				"imgSquare" : {
-					"src": "../../../images/sample/avatar3.jpg",
-					"alt": "avatar"
-				},
-				"headline" : {
-					"short" : "Salvadore Dali XIV"
-				},
-				"excerpt" : {
-					"medium" : "Sheboygan, WI"
-				}
-
-			}
-		],
-		"btnText" : "View All Hikers"
-	}
 }

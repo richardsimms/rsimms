@@ -35,6 +35,7 @@
 	text-align: right;
 	margin: 0 $pad 0 auto;
 	padding-top: 1rem;
+	font-size: $font-size-small;
 
 		@media all and (max-width: $bp-large-2) {
 			text-align: left;
