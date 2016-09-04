@@ -580,10 +580,6 @@ header {
   .about p {
     text-align: left; }
 
-/**
- * Media Container
- * 1) This is the container that holds the block image (or media)
- */
 /*------------------------------------*\
 	# Case study
 \*------------------------------------*/
@@ -630,6 +626,23 @@ header {
     .cs-3 {
       padding: 6em 1.5em 6em 1.5em; } }
 
+/**
+ * 2) This is the casestudy and article thumbnails.
+ */
+.thumbnail {
+  box-shadow: 0px 4px 7px 0px rgba(48, 48, 48, 0.1); }
+  .thumbnail p {
+    padding-left: 1.875em;
+    padding-right: 1.875em; }
+  .thumbnail p:first-of-type {
+    font-size: 1.125rem;
+    padding-top: 1.875em;
+    margin-bottom: 0.25rem;
+    color: #303030; }
+  .thumbnail p:last-of-type {
+    color: #303030;
+    padding-bottom: 1.875em; }
+
 /*------------------------------------*\
 	#TOUT BLOCK
 \*------------------------------------*/
@@ -665,6 +678,40 @@ header {
   .c-block-tout:hover .c-block-tout__headline, .c-block-tout:focus .c-block-tout__headline {
     padding-bottom: 2rem; }
 
+/*------------------------------------*\
+	#Article BLOCK
+\*------------------------------------*/
+/**
+ * 1)
+ */
+.article img {
+  z-index: 0;
+  display: block;
+  left: 3rem;
+  width: 800px;
+  height: 100%; }
+.article h3 {
+  text-align: left; }
+.article p {
+  text-align: left; }
+
+.art-text {
+  border: 1px solid #E4E3DE;
+  box-shadow: 0px 4px 7px 0px rgba(48, 48, 48, 0.1);
+  position: relative;
+  z-index: 3;
+  background: white;
+  top: 1rem;
+  left: -3rem;
+  padding: 3rem;
+  height: 100%; }
+
+/**
+ * 2)
+ */
+/**
+ * 3)
+ */
 /*------------------------------------*\
 	#TILE BLOCK
 \*------------------------------------*/
