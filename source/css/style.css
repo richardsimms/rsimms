@@ -170,11 +170,14 @@ So feel free to use any of these approaches. Or don't. It's totally up to you.
 body {
   background: #fff;
   color: #303030;
-  font: 100%/1.5 system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font: 150%/1.5 system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   -webkit-text-size-adjust: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column; }
+  @media all and (max-width: 46.8em) {
+    body {
+      font: 100%/1.5 system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif; } }
 
 /*------------------------------------*\
     #ANIMATION
@@ -563,14 +566,12 @@ header {
   .c-block-media--small {
     font-size: 0.875rem; }
   .c-block-media p {
-    font-size: 1.5rem;
     text-align: center;
     font-weight: 300;
     padding: 1.5em 3.75em 1.5em 3.75em; }
     @media all and (max-width: 66em) {
       .c-block-media p {
-        padding: 0.75em;
-        font-size: 1rem; } }
+        padding: 0.75em; } }
 
 .about {
   padding: 3.75em 0 0 0; }
@@ -590,8 +591,7 @@ header {
     padding-bottom: 1.875em; }
   .casestudy p {
     text-align: left;
-    padding: 0;
-    font-size: 1rem; }
+    padding: 0; }
 
 .casestudy_img > img {
   margin-right: -1.5em; }
@@ -624,6 +624,33 @@ header {
   background-color: #d8e6e4; }
   @media all and (max-width: 46.8em) {
     .cs-3 {
+      padding: 6em 1.5em 6em 1.5em; } }
+
+.cs-4 {
+  overflow: auto;
+  padding: 9em 1.5em 3.75em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  background-color: #f5f5f5; }
+  .cs-4 h3 {
+    padding-left: 1.5rem; }
+  .cs-4 p {
+    padding-left: 1.5rem; }
+  @media all and (max-width: 46.8em) {
+    .cs-4 {
+      padding: 6em 1.5em 6em 1.5em; } }
+
+.cs-large {
+  overflow: auto;
+  padding: 9em 1.5em 3.75em 1.5em;
+  margin-left: -1.5em;
+  margin-right: -1.5em; }
+  .cs-large h3 {
+    padding-left: 1.5rem; }
+  .cs-large p {
+    padding-left: 1.5rem; }
+  @media all and (max-width: 46.8em) {
+    .cs-large {
       padding: 6em 1.5em 6em 1.5em; } }
 
 /**
@@ -701,10 +728,15 @@ header {
   position: relative;
   z-index: 3;
   background: white;
-  top: 1rem;
+  top: 2rem;
   left: -3rem;
   padding: 3rem;
   height: 100%; }
+  @media all and (max-width: 48em) {
+    .art-text {
+      left: 0;
+      top: -5rem;
+      margin: 1rem; } }
 
 /**
  * 2)

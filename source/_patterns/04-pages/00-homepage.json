@@ -1,13 +1,13 @@
 {
 		"company" : {
-			"name" : "123 ",
+			"name" : "Richard Simms ",
 			"url" : "http://rsimms.com",
 			"label": "Home",
-			"description" : "23 is achieved, not when there is nothing more to add, but when there is nothing left to take away."
+			"description" : "I'm a designer who lives and works in London. I create interfaces for applications, which have engaging experiences and are grounded research to solve problems."
 	},
 	"about": {
-    "name" : "12 Richard",
-    "intro" : "21 fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
+    "name" : "Service Designer / UX Designer",
+    "intro" : "Designing for consistent outcome and measurable results to iterate and refine ideas with customers. For the last year and a bit, I've been working at Publicis.Sapient in London UK, leading projects from designing new products and large website re-platform."
   },
 	"project": {
     "name": "123 Stories",
@@ -22,9 +22,9 @@
 			"order": "cs-1",
 			"url": "xxx.com",
 			"link": "See  in action",
-			"label": "123 Meet ",
-			"name": "one",
-			"intro": "xxxx tricycles, I shot him.",
+			"label": "Mastercard",
+			"name": "Powering Avios",
+			"intro": "A digital experience that maximises the customer potential to earn and burn loyalty points with selected partners.",
 			"src": "http://placeimg.com/400/300/tech",
 			"alt": "4x3 Image"
 		},

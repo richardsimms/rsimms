@@ -25,8 +25,9 @@
     }
   },
   "about": {
-    "name" : "About Richard",
-    "intro" : "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
+    "name" : "About Richard Simms",
+    "intro" : "Now a London designer at SapientNitro, I am originally from North Yorkshire and moved to the capital in 2004. Much of my early work focused on digital art and I admired artist like Dylan Cole. By pushing the boundaries of digital experience I hope to make my world a slightly better place. To read about my past cv please check out my LinkedIn profile here ",
+    "cta": "<a href='https://en.wikipedia.org/wiki/Block_quotation'>Wikiepedia</a>"
   },
 
   "footerNav": {
@@ -56,7 +57,8 @@
     "landscape-16x9": {
       "src": "http://placeimg.com/640/360/tech",
       "alt": "16x9 Image"
-    }
+    },
+    "video": "../../images/video.png"
   },
   "headline": {
     "short": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
