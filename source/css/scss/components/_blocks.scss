@@ -125,13 +125,44 @@ header {
   h2 {
     color: $color-text;
     font-weight: 100;
+    padding-bottom: 3rem;
   }
   p {
     text-align: left;
   }
-
 }
 
+.contact {
+  padding: $space-double 0 0 0;
+  h2 {
+    color: $color-text;
+    font-weight: 100;
+    padding-bottom: 3rem;
+  }
+  h4 {
+    text-align: left;
+    padding-left: $space-half;
+    margin-left: 0;
+    
+  }
+  p {
+    text-align: left;
+  }
+  li {
+    list-style: none;
+    text-align: left;
+    margin-left: $space;
+  }
+  ul {
+    padding-left: $space;
+    li {
+      list-style: disc;
+      text-align: left;
+      font-weight: 300;
+      padding-bottom: $space;
+    }
+  }
+}
 /*------------------------------------*\
 	# Case study
 \*------------------------------------*/

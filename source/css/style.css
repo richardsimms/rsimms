@@ -577,9 +577,34 @@ header {
   padding: 3.75em 0 0 0; }
   .about h2 {
     color: #303030;
-    font-weight: 100; }
+    font-weight: 100;
+    padding-bottom: 3rem; }
   .about p {
     text-align: left; }
+
+.contact {
+  padding: 3.75em 0 0 0; }
+  .contact h2 {
+    color: #303030;
+    font-weight: 100;
+    padding-bottom: 3rem; }
+  .contact h4 {
+    text-align: left;
+    padding-left: 0.75em;
+    margin-left: 0; }
+  .contact p {
+    text-align: left; }
+  .contact li {
+    list-style: none;
+    text-align: left;
+    margin-left: 1.5em; }
+  .contact ul {
+    padding-left: 1.5em; }
+    .contact ul li {
+      list-style: disc;
+      text-align: left;
+      font-weight: 300;
+      padding-bottom: 1.5em; }
 
 /*------------------------------------*\
 	# Case study
@@ -1492,7 +1517,7 @@ header {
   color: #303030; }
   .c-primary-nav__list:hover, .c-primary-nav__list:focus {
     color: #3468c2; }
-  @media all and (min-width: 24em) {
+  @media all and (min-width: 29.75em) {
     .c-primary-nav__list {
       display: flex; } }
   .c-primary-nav--is-active .c-primary-nav__list {
