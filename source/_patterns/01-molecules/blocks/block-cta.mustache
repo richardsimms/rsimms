@@ -1,5 +1,7 @@
-	<div class="c-block-media">
-		<h4>{{ project.task }}</h4>
-		<p>{{ project.intro }}</p>
-		{{> atoms-button }}
+	<div class="c-block-media morework">
+		<h4>{{ morework.title }}</h4>
+		<p>{{ morework.intro }}</p>
+		{{# 	morework }}
+			{{> atoms-button }}
+		{{/ 	morework }}
 	</div>

@@ -18,7 +18,18 @@
   text-align: center;
   align-items: center;
   transition: all $anim-speed-quick $anim-ease;
-
+  @media all and (min-width: $bp-med) {
+    #img1 { position: absolute; bottom: 0px; right: 0px; }
+    #img2 { position: absolute; top: 0px; right: 0px; }
+    #img3 { position: absolute; top: 0px; left: 0px; }
+    #img4 { position: absolute; bottom: 0px; left: 0px; }
+  }
+  @media all and (max-width: $bp-med) {
+    #img1 { display: none; }
+    #img2 { display: none; }
+    #img3 { display: none; }
+    #img4 { display: none; }
+  }
   div{
     box-sizing: border-box;
     display: block;
@@ -120,6 +131,13 @@ header {
   }
 }
 
+.morework {
+  display: block;
+  @media all and (min-width: $bp-med) {
+    display: none;
+  }
+}
+
 .about {
   padding: $space-double 0 0 0;
   h2 {
@@ -143,7 +161,7 @@ header {
     text-align: left;
     padding-left: $space-half;
     margin-left: 0;
-    
+
   }
   p {
     text-align: left;
@@ -212,24 +230,46 @@ header {
   background-color: $color-brand-geyser;
   }
 .cs-4 {
-  h3 { padding-left: 1.5rem; }
-  p { padding-left: 1.5rem; }
+  h3 {
+    max-width: $l-main;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+   }
+  p {
+    max-width: $l-main;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+  }
   overflow: auto;
   padding: $space-quad $space $space-double $space;
 	@media all and (max-width: $bp-med) {
     padding: $space-treble $space $space-treble $space;
+    display: none;
   }
   margin-left: -$space;
   margin-right: -$space;
   background-color: $color-gray;
   }
   .cs-large {
-    h3 { padding-left: 1.5rem; }
-    p { padding-left: 1.5rem; }
+    h3 {
+      max-width: $l-main;
+      margin: 0 auto;
+      padding: 1rem;
+      text-align: center;
+     }
+    p {
+      max-width: $l-main;
+      margin: 0 auto;
+      padding: 1rem;
+      text-align: center;
+    }
     overflow: auto;
-    padding: $space-quad $space $space-double $space;
+    padding: $space-double $space $space-double $space;
   	@media all and (max-width: $bp-med) {
       padding: $space-treble $space $space-treble $space;
+      display: none;
     }
     margin-left: -$space;
     margin-right: -$space;
@@ -240,9 +280,13 @@ header {
    */
    .thumbnail {
      box-shadow: 0px 4px 7px 0px rgba(48,48,48,0.10);
-     p {
-       padding-left: $space-and-half;
-       padding-right: $space-and-half;
+     img {
+       max-width: auto;
+       margin: 0 auto;
+       padding: 1rem;
+       text-align: center;
+      //  padding-left: $space-and-half;
+      //  padding-right: $space-and-half;
      }
      p:first-of-type {
        font-size: $font-size-med-2;
@@ -306,6 +350,10 @@ header {
  * 1)
  */
  .article {
+   text-align: center;
+   max-width: $l-main;
+   margin: 0 auto;
+   padding: 1rem;
   img {
 //    position: relative;
     z-index: 0;

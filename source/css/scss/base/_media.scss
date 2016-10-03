@@ -22,7 +22,7 @@ iframe {
  */
 figure {
 	margin-bottom: $space;
-	
+
 	/**
 	 * Figure image base styles
 	 */
@@ -36,4 +36,13 @@ figure {
  */
 figcaption {
 	font-style: italic;
+}
+
+.showreel {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: $l-main;
+	align: middle;
+	padding: 1rem;
+	text-align: center;
 }

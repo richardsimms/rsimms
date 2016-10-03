@@ -2,7 +2,10 @@
     #Video
 \*------------------------------------*/
 
-.video {
-	width: 100%;
-
+.showreel {
+	margin: 0 auto;
+	width: 400px;
+	max-width: $l-main;
+	padding: 1rem;
+	background-color: red;
 }

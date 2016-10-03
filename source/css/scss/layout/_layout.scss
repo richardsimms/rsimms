@@ -11,9 +11,11 @@
 	padding: 1rem;
 }
 
-
-
-
+.l-main {
+	max-width: $l-main;
+	margin: 0 auto;
+	padding: 1rem;
+}
 
 /*------------------------------------*\
     #TEMPLATES
@@ -37,7 +39,7 @@
 	 * Sidebar
 	 */
 	.l-sidebar {
-		
+
 		@media all and (min-width:$bp-small-3) {
 			display: flex;
 		}
@@ -49,7 +51,7 @@
 			padding: 0 0 0 $pad;
 		}
 	}
-	
+
 	@media all and (min-width: $bp-large) {
 		flex-direction: row;
 	}

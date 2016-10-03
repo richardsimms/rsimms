@@ -20,6 +20,7 @@
   "primaryNav": {
     "link": {
       "home"    : "Home",
+      "url" : "/",
       "about"   : "About",
       "contact" : "Let's talk"
     }
@@ -36,6 +37,12 @@
           "about"   : "About",
           "contact" : "Let's talk"
     }
+  },
+  "article": {
+    "name"  : "Article name",
+    "intro" : "label",
+    "src": "http://placeimg.com/400/300/people",
+    "alt": "Square"
   },
   "img": {
     "avatar": {
