@@ -15,6 +15,7 @@
 	max-width: $l-main;
 	margin: 0 auto;
 	padding: 1rem;
+	margin-bottom: $space-double;
 }
 
 /*------------------------------------*\
@@ -100,7 +101,18 @@
 		}
 	}
 }
+.cs-2 {
+	@media all and (min-width: $bp-med) {
+		> .gi {
+			float: right;
+			width: 50%;
 
+			&:nth-of-type(odd) {
+				clear: right;
+			}
+		}
+	}
+}
 /**
  * Grid side by side
  */
@@ -114,7 +126,16 @@
 		}
 	}
 }
+.cs-2 > .g-half {
+	> .gi {
+		float: right;
+		width: 50%;
 
+		&:nth-of-type(odd) {
+			clear: right;
+		}
+	}
+}
 /**
  * 3 up grid
  */

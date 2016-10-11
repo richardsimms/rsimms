@@ -6,74 +6,82 @@
 			"description" : "I'm a designer who lives and works in London. I create interfaces for applications, which have engaging experiences and are grounded research to solve problems."
 	},
 	"about": {
-    "name" : "Service Designer / UX Designer",
-    "intro" : "Designing for consistent outcome and measurable results to iterate and refine ideas with customers. For the last year and a bit, I've been working at Publicis.Sapient in London UK, leading projects from designing new products and large website re-platform."
+    "title" : "Service Designer / UX Designer",
+    "intro" : "I design for consistent outcome and measurable results to iterate and refine ideas with customers. For the last year and a bit, I've been working at Publicis.Sapient in London UK, leading project design sprints and user validation. I shape a product by iterating on both features and problems, day by day.",
+		"btnText" : "Let's work together",
+		"btnLink" : "mailto:richard@rsimms.com"
   },
-	"btnText": "123 This is a link",
+	"video" : {
+    "poster" : "../../images/video.png",
+		"mp4" : "../../images/video.m4v",
+	  "ogg" : "../../images/video.ogg"
+  },
 	"quoteTitle" : "&#8220;Richard is an extremely versatile designer.",
   "quoteText" : " He has the skills to work on a wide range of design technologies. It is rare to find a person who can combine creative flair, innovative design and technical understanding. He is always cool under pressure and understands his customer.&#8221;",
   "quoteSource" : "<a href='https://www.linkedin.com/profile/view?id=AAEAAAFgKZUBbAT1fIwLXNme52oBrcnh21zqHvc&authType=name&authToken=i-9r'>Steve Hart</a>",
 	"study1" : {
 			"order": "cs-1",
 			"url": "xxx.com",
-			"link": "See  in action",
 			"label": "Mastercard",
-			"name": "Powering Avios",
+			"name": "Co-branded Loyalty Airline programme",
 			"intro": "A digital experience that maximises the customer potential to earn and burn loyalty points with selected partners.",
-			"src": "http://placeimg.com/928/696/tech",
-			"alt": "4x3 Image"
+			"src": "../../images/avios.jpg",
+			"alt": "Loyality points programme screens",
+			"btnText": "Casestudy",
+			"linkHref": "https://en.wikipedia.org/wiki/Block_quotation"
 		},
 	"study2" : {
 			"order": "cs-2",
 			"url": "xxx.com",
-			"link": "2 See  in action",
 			"label": "Diageo",
 			"name": "AEM platform migration",
-			"intro": "xxxx tricycles, I shot him.",
-			"src": "http://placeimg.com/928/696/tech",
-			"alt": "4x3 Image"
+			"intro": "A platform migration of Diageo’s portfolio of world-famous drink brand sites and their global corporate site to Adobe Experience Manager. I designed and wrote acceptance criteria for reusable components.  I built a framework of mapping pages to components in Confluence and JIRA, that reduced development time by a third.",
+			"src": "../../images/diageo.jpg",
+			"alt": "4x3 Image",
+			"btnText": "Casestudy",
+			"linkHref": "https://en.wikipedia.org/wiki/Block_quotation"
 		},
 	"study3" : {
 			"order": "cs-3",
 			"url": "xxx.com",
-			"link": "3 See  in action",
 			"label": "Savills ",
 			"name": "Recreate property application ",
-			"intro": "xxxx tricycles, I shot him.",
-			"src": "http://placeimg.com/928/696/tech",
-			"alt": "4x3 Image"
+			"intro": "To help improve access to key information, through improving the information architecture of the site and apply a responsive design for an improved mobile experience.",
+			"src": "../../images/auction.png",
+			"alt": "4x3 Image",
+			"btnText": "Casestudy",
+			"linkHref": ""
 		},
+	"gridTitle": "Do you like what you’re seeing?",
+	"gridIntro": "I’m always looking to expand my network, get engaged in new challenges, or just have a coffee!",
 
 	"study4" : {
 			"order": "cs-3",
 			"url": "xxx.com",
-			"link": "3 See  in action",
-			"label": "Sky ",
-			"name": "Sky",
+			"link": "Sky Sports",
+			"name": "Application interface",
 			"intro": "xxxx tricycles, I shot him.",
-			"src": "http://placeimg.com/400/300/tech",
+			"src": "../../images/sky-4x3.jpg",
 			"alt": "4x3 Image"
 		},
 
 	"study5" : {
 			"order": "cs-3",
 			"url": "xxx.com",
-			"link": "3 See  in action",
-			"label": "Zurich ",
-			"name": "Zurich",
+			"link": "Zurich.co.uk",
+			"name": "Site achitecture",
 			"intro": "xxxx tricycles, I shot him.",
-			"src": "http://placeimg.com/400/300/tech",
+			"src": "../../images/zurich-4x3.jpg",
 			"alt": "4x3 Image"
 		},
 
 	"study6" : {
 			"order": "cs-3",
 			"url": "xxx.com",
-			"link": "3 See  in action",
-			"label": "Coutts ",
-			"name": "Coutts",
+			"link": "Coutts",
+			"name": "Design system",
 			"intro": "xxxx tricycles, I shot him.",
-			"src": "http://placeimg.com/400/300/tech",
+			"src": "../../images/coutts-4x3.jpg",
 			"alt": "4x3 Image"
 		},
 
@@ -81,80 +89,22 @@
 	"study7" : {
 			"order": "cs-3",
 			"url": "xxx.com",
-			"link": "3 See  in action",
-			"label": "ESPN ",
-			"name": "ESPN",
+			"link": "ESPN",
+			"name": "AR interface",
 			"intro": "xxxx tricycles, I shot him.",
-			"src": "http://placeimg.com/400/300/tech",
+			"src": "../../images/espn-4x3.jpg",
 			"alt": "4x3 Image"
 		},
-	"article": {
-		"name"  : "Article name",
-		"intro" : "label",
-		"src": "http://placeimg.com/400/300/people",
-		"alt": "Square"
-	},
-	"morework": {
-		"title": "More work ok Behance",
-    "intro": "I designed something that might be readable",
-		"btnText": "View more",
-		"cta": "link"
-  },
-	"photo1" : {
-			"url": "xxx.com",
-			"link": "View photo1",
-			"name": "photo1",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
+		"promo" : {
+				"title" : "Let’s have a chat!",
+				"intro" : "Got a project? Big or small. Lets talk",
+				"btnText" : "richard@rsimms.com",
+				"btnLink" : "mailto:richard@rsimms.com"
 		},
-	"photo2" : {
-			"url": "xxx.com",
-			"link": "View photo2",
-			"name": "photo2",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
-		},
-	"photo3" : {
-			"url": "xxx.com",
-			"link": "View photo3",
-			"name": "photo3",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
-		},
-
-	"photo4" : {
-			"url": "xxx.com",
-			"link": "View photo4",
-			"name": "photo4",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
-		},
-	"photo5" : {
-			"url": "xxx.com",
-			"link": "View photo5",
-			"name": "photo5",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
-		},
-	"photo6" : {
-			"url": "xxx.com",
-			"link": "View photo6",
-			"name": "photo6",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
-		},
-	"photo7" : {
-			"url": "xxx.com",
-			"link": "View photo7",
-			"name": "photo7",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
-		},
-	"photo8" : {
-			"url": "xxx.com",
-			"link": "View photo8",
-			"name": "photo8",
-			"src": "http://placeimg.com/400/300/tech",
-			"alt": "4x3 Image"
+		"article" : {
+			"name"  : "A modular approach to layout design",
+			"intro" : "How to work collaboratively in Photoshop with Placed Linked",
+			"src": "https://cdn-images-1.medium.com/fit/t/2000/1600/desat/multiply/grey/overlay/grey/gradv/29/81/55/1*lvHs-0po_Q5iK6wU_oDUEQ.png",
+			"alt": "Photoshop a collaboratively workflow"
 		}
 }

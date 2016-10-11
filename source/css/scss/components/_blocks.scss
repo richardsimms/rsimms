@@ -21,7 +21,7 @@
   @media all and (min-width: $bp-med) {
     #img1 { position: absolute; bottom: 0px; right: 0px; }
     #img2 { position: absolute; top: 0px; right: 0px; }
-    #img3 { position: absolute; top: 0px; left: 0px; }
+    #img3 { position: absolute; top: 0px; left: 0px; padding: $space;}
     #img4 { position: absolute; bottom: 0px; left: 0px; }
   }
   @media all and (max-width: $bp-med) {
@@ -97,7 +97,13 @@ header {
 
   transition: all $anim-speed-quick $anim-ease;
 
+  h4 {
 
+    padding: $space $space-double 0 $space-double;
+    @media all and (max-width: $bp-large-2) {
+      padding: $space-half;
+    }
+  }
 
   h2 {
     text-transform: capitalize;
@@ -122,12 +128,11 @@ header {
   p {
     text-align: center;
     font-weight: 300;
-    padding: $space $space-double $space $space-double;
+    padding: $space $space-double 0 $space-double;
 
     @media all and (max-width: $bp-large-2) {
       padding: $space-half;
     }
-
   }
 }
 
@@ -145,42 +150,40 @@ header {
     font-weight: 100;
     padding-bottom: 3rem;
   }
-  p {
-    text-align: left;
-  }
-}
-
-.contact {
-  padding: $space-double 0 0 0;
-  h2 {
-    color: $color-text;
-    font-weight: 100;
-    padding-bottom: 3rem;
-  }
   h4 {
+    margin-left: $space-half;
     text-align: left;
-    padding-left: $space-half;
-    margin-left: 0;
 
-  }
-  p {
-    text-align: left;
-  }
-  li {
-    list-style: none;
-    text-align: left;
-    margin-left: $space;
-  }
-  ul {
-    padding-left: $space;
-    li {
-      list-style: disc;
-      text-align: left;
-      font-weight: 300;
-      padding-bottom: $space;
+    @media all and (max-width: $bp-large-2) {
+      margin-left: 0;
     }
   }
+  .intro {padding-top: $space-half;}
+  li {
+     list-style: none;
+     text-align: left;
+     margin-left: $space-double;
+     padding-top: $space-half;
+
+     @media all and (max-width: $bp-large-2) {
+       margin-left: $space;
+     }
+   }
+   ul {
+       padding-left: $space;
+       li {
+         list-style: disc;
+         text-align: left;
+         font-weight: 300;
+         padding-bottom: 0;
+       }
+     }
+  p {
+    text-align: left;
+  }
 }
+
+
 /*------------------------------------*\
 	# Case study
 \*------------------------------------*/
@@ -188,7 +191,8 @@ header {
   padding-left: $pad-and-half;
   text-align: left;
   h4 {
-    padding-bottom: $space-and-half;
+    padding-bottom: 0;
+    padding-left: 0;
   }
   p {
     text-align: left;
@@ -206,10 +210,10 @@ header {
   }
   margin-left: -$space;
   margin-right: -$space;
-
   background-color: $color-brand-mystic;
   }
 .cs-2 {
+  clear: both;
   overflow: auto;
   padding: $space-quad $space $space-quad $space;
   @media all and (max-width: $bp-med) {
@@ -273,13 +277,14 @@ header {
     }
     margin-left: -$space;
     margin-right: -$space;
-
     }
   /**
    * 2) This is the casestudy and article thumbnails.
    */
    .thumbnail {
-     box-shadow: 0px 4px 7px 0px rgba(48,48,48,0.10);
+
+     background-color: white;
+
      img {
        max-width: auto;
        margin: 0 auto;
@@ -299,6 +304,9 @@ header {
        padding-bottom: $space-and-half;
      }
    }
+   .thumbnail:hover {
+     box-shadow: 0px 4px 7px 0px rgba(48,48,48,0.10);
+   }
 
 /*------------------------------------*\
 	#TOUT BLOCK
@@ -311,7 +319,6 @@ header {
     display: inline-block;
 	margin-bottom: $space-half;
 	position: relative;
-    overflow: hidden;
     border-radius: $border-radius;
 }
 
@@ -414,7 +421,6 @@ header {
     border-radius: $border-radius;
     padding: 1em 1em;
     text-align: center;
-    overflow: hidden;
     transition: all $anim-speed-quick $anim-ease;
 
     &:hover, &:focus {

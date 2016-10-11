@@ -64,8 +64,10 @@
     "landscape-16x9": {
       "src": "http://placeimg.com/640/360/tech",
       "alt": "16x9 Image"
-    },
-    "video": "../../images/video.png"
+    }
+  },
+  "video" : {
+    "poster" : "../../images/video.png"
   },
   "headline": {
     "short": "Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.",
