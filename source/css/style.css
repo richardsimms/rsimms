@@ -237,6 +237,9 @@ h3 {
   font-size: 3.75rem;
   line-height: 1.2;
   font-kerning: -3; }
+  @media all and (max-width: 46.8em) {
+    h3 {
+      font-size: 1.8rem; } }
 
 /**
  * Heading 4
